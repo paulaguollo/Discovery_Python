@@ -84,4 +84,3 @@ else:
 
 # **Resumo pra avaliação:** esse exercício junta duas validações no mesmo `"none"` — quantidade errada de parâmetros **ou** nenhuma ocorrência encontrada — e usa o módulo `re` para buscar substrings, com `re.escape()` garantindo que a busca seja literal (texto puro), não interpretada como padrão de regex.
 
-# Esse fecha o Módulo 6! Se quiser, posso seguir pros do Módulo 7, 8 ou 9 — é só mandar.

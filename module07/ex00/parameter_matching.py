@@ -53,5 +53,3 @@ else:
 # ---
 
 # **Resumo pra avaliação:** esse exercício é sobre a diferença entre **entrada via linha de comando** (`sys.argv`, valores fixados antes de o programa rodar) e **entrada interativa** (`input()`, que pausa a execução e espera o usuário digitar em tempo real). O resto — validação de quantidade de parâmetros e comparação de strings com `==` — já é familiar dos exercícios anteriores.
-
-# Manda o próximo quando quiser!
