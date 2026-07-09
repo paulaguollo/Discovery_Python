@@ -21,3 +21,8 @@ else:
             enlarge(word)
         else:
             print(word)
+
+
+#             string[:8] — slice, pega os primeiros 8 caracteres ([start:end], omitindo start = começa do 0).
+# while len(string) < 8: string += "Z" — loop comum, só concatenando até bater o tamanho. Nada específico de Python além da sintaxe (while cond: com indentação).
+# Duas funções imprimindo direto (print dentro delas) em vez de retornar — funciona porque o enunciado só pede pra "mostrar", não reaproveitar o valor depois.

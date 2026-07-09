@@ -11,3 +11,7 @@ if len(args) == 0:
 else:
     for word in args:
         print(downcase_it(word))
+
+
+# Junta o que já vimos: função com return + .lower() aplicada em loop sobre sys.argv[1:].
+# Nada novo de Python aqui — só combinação de conceitos anteriores (função definida no módulo 8, sys.argv do módulo 6/7).

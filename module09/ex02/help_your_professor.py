@@ -18,3 +18,8 @@ class_3C = {
 
 print(f"Average for class 3B: {average(class_3B)}.")
 print(f"Average for class 3C: {average(class_3C)}.")
+
+
+# .values() — pega só os valores do dict (ignora as chaves).
+# sum() — soma os itens de um iterável, função embutida.
+# / — divisão em Python 3 é sempre float (50/4 = 12.5), mesmo dividindo dois inteiros. Diferente de C/Java onde int/int trunca. Se quisesse divisão inteira, seria //.

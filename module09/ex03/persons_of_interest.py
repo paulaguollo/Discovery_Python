@@ -13,3 +13,9 @@ women_scientists = {
 }
 
 famous_births(women_scientists)
+
+
+# Dict aninhado: cada valor de figures é outro dict ({"name": ..., "date_of_birth": ...}).
+# sorted(iterável, key=...) — ordena qualquer iterável; key recebe uma função que diz por qual campo ordenar (aqui, uma lambda que extrai date_of_birth de cada item). Não muda a lista original, retorna uma nova.
+# Como as datas são strings de 4 dígitos ("1815", "1900"...), ordenação alfabética de string coincide com ordenação cronológica — só funciona por causa desse detalhe (mesmo número de dígitos).
+# f-string: f"{var}" interpola variáveis direto na string, mesma ideia de template literals do JS (`${var}`) ou f-strings de outras linguagens.
